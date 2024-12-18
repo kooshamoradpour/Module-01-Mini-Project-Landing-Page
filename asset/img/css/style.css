@@ -3,11 +3,12 @@
 }
 
 .head {
-    height: 45px;
     width: 100%;
     border-bottom: 5px solid rgb(232, 178, 106);
     background-color: rgb(4, 81, 4);
-    position: sticky;
+    float: right;
+    color: white;
+    padding: 10px;
 }
 
 .list {
@@ -15,6 +16,7 @@
     margin-right: 20px;
     float: right;
     font-size: 15px;
+    margin-top: 0px;
 }
 
 .img {
