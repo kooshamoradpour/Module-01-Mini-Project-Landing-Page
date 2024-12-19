@@ -21,7 +21,7 @@
 
 .img {
     position: absolute;
-    left: 520px;
+    position-area: center;
 }
 
 #C {
@@ -63,6 +63,7 @@
     position: relative;
     top: 410px;
     text-align: center;
+    margin-top: 2%;
 }
 
 .bottombox {
@@ -83,6 +84,7 @@
     color: white;
     padding: 5px;
     border-bottom: 10px solid black;
+    margin: 0;
 
 }
 
@@ -92,9 +94,28 @@
     border-radius: 40px;
     width: 500px;
     margin-left: 400px;
+    margin-inline: 35%;
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    margin: 0;
+    margin-right: 48%;
+}
+#email{
+    margin: 0;
+    margin-right: 48%;
+}
+.form-box {
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #click {
     color: white;
     background-color: black;
+    color: white;
+    background-color: black;
+    border-radius: 30%;
+    margin: 10px;
 }
